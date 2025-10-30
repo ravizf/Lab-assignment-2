@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ravi - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fa;
+            color: #d40f0f;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8dad00;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #acd700;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 12px;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #7ad700;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #03ad00;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            background-color: #20d700;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        #topBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #004aad;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #004aad;
+            color: white;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ravi</h1>
+        <p>Web Developer | Designer | Learner | coder </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src=https://thumbs.dreamstime.com/z/young-man-anime-style-character-vector-illustration-design-manga-boy-black-hair-faces-cartoon-face-male-isolated-281620892.jpg?ct=jpeg
+            alt="Ravi" width="200">
+        <p>Hello! I’m Ravi, i am passionate about coding and i am web developer. I enjoy learning new technologies and
+            building creative web designs using HTML, CSS, .</p>
+        <hr>aScript
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Experience Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>intermediate</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Some small web projects I’ve worked on include:</p>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Simple To-Do List App</li>
+            <li>Registration Form with Validation</li>
+        </ul>
+        <button>View Projects</button>
+        <hr>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">name:</label><br>
+
+
+            <input type=" text " id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <input type=" email " id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <button>
+                <input type="submit" value="send" >
+            </button>
+
+        </form>
+        <p>You can reach me through email or social platforms.</p>
+        <button>Contact Now</button>
+    </section>
+    <section>
+        <h2>This is my social media handle</h2>
+        <a
+            href="https://www.linkedin.com/in/ravi-ravi-a6820023b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Visit
+            linkedin</a><br>
+
+    </section>
+
+
+    <button id="topBtn">↑ Top</button>
+
+    <footer>
+        <p> &copy; Ravi. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
